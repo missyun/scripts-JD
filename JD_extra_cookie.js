@@ -40,7 +40,7 @@ https:\/\/wq\.jd\.com\/user_new\/info\/GetJDUserInfoUnion  url script-request-he
 
  */
 
-const APIKey = "CookiesJD";
+const APIKey = "pt_key=AAJgzGKZADDZvvenwphIzn3ivP4vvWheToUPf0ZRF-C4E2m-MwHdRnJ4UDtGHozyzW5UXh080lM;pt_pin=jd_637ef2928bd69";
 $ = new API(APIKey, true);
 const CacheKey = `#${APIKey}`;
 if ($request) GetCookie();
